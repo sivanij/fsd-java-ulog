@@ -1,6 +1,8 @@
 package com.upgrad.ublog.utils;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 
 /**
  * TODO: 4.13. Implement a method with the following signature.
@@ -9,5 +11,15 @@ import java.time.LocalDateTime;
  */
 
 public class DateTimeFormatter {
+    public static void main(String[] args) {
+        LocalDate localDate = LocalDate.now();
+        System.out.println(localDate);
 
+        LocalTime localTime = LocalTime.now();
+        System.out.println(localTime);
+
+        LocalDateTime localDateTime = LocalDateTime.now();
+        System.out.println(localDateTime);
+
+    }
 }

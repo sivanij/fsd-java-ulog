@@ -20,6 +20,7 @@ public class Application {
     private PostService postService;
     private UserService userService;
 
+
     private boolean isLoggedIn;
     private String loggedInEmailId;
 
@@ -107,6 +108,7 @@ public class Application {
         System.out.println("*********************");
         System.out.println("******Register*******");
         System.out.println("*********************");
+
 
 
     }

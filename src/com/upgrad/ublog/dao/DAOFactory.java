@@ -9,4 +9,13 @@ package com.upgrad.ublog.dao;
 
 public class DAOFactory {
 
+    public PostDAO PostDAO () {
+        return PostDAOImpl.getInstance();
+    }
+
+    public UserDAO userDAO () {
+        return UserDAOImpl.getInstance();
+    }
+
+
 }
